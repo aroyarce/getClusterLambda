@@ -8,7 +8,7 @@ This function calculate the Clusters contain in a grid of 10x10, by measure the 
 The distance is calculated based in the magnitud of a vector in a Cartessian Plane. This is the absolute difference between each axes of each point, where each distance must be inside the given value.
 
 ## Algorithm
-The algorithm consist in thre steps:
+The algorithm consist in several steps:
 - Loop for each active location.
 - Measure of the distance between this point and all the others.
 - Add to an array, reference by the current point, all the other points which distance is minor or equal to the given distance.
