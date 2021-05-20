@@ -12,7 +12,7 @@ The algorithm consist in several steps:
 - Loop for each active location.
 - Measure of the distance between this point and all the others.
 - Add to an array, reference by the current point, all the other points which distance is minor or equal to the given distance.
-- Order the result array for simplified the next step.
+- Order the result array for simplify the next step.
 - With the array for each point, It will be remove all duplicated, because of the distance for A to B is the same that B to A.
 - Return the resulting array.
 
